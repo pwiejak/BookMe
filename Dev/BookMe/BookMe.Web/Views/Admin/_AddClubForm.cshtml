@@ -1,0 +1,28 @@
+﻿@using BookMe.Web.Resources
+@model BookMe.Web.ViewModels.Club.ClubVm
+
+@using (Html.BeginForm("AddClub", "Admin"))
+{
+    <div class="fieldset-container">
+        <div class="row">
+            <fieldset class="form-group">
+                @Html.LabelFor(m => Model.Name)
+                @Html.EditorFor(m => Model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.Name)
+            </fieldset>
+            <fieldset class="form-group">
+                @Html.LabelFor(m => Model.Email)
+                @Html.EditorFor(m => Model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.Email)
+            </fieldset>
+            <fieldset class="form-group">
+                @Html.LabelFor(m => Model.Phone)
+                @Html.EditorFor(m => Model.Phone, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => m.Phone)
+            </fieldset>
+        </div>
+        <div class="row">
+            <input type="submit" value="@Strings.Save" class="btn btn-primary" />
+        </div>
+    </div>
+}

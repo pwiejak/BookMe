@@ -1,0 +1,23 @@
+﻿@model BookMe.Web.ViewModels.Club.ClubsVm
+
+@Scripts.Render("~/bundles/angular")
+@Scripts.Render("~/bundles/clubs")
+
+@{
+    var clubScheduleLink = Url.Action("Schedule", "Booking");
+}
+
+<div ng-app="BookMeApp" class="row">
+    <div ng-controller="ClubsController"
+         ng-init="init(@Newtonsoft.Json.JsonConvert.SerializeObject(Model))">
+
+        <div ng-repeat="club in clubs" class="col-md-4">
+            <div class="brick">
+                <a href="" ng-click="linkToClubSchedule('@clubScheduleLink', club.Id)">{{club.Name}}</a>
+                @*<div>@Html.ActionLink("{{club.Name}}", "Schedule", "Booking", new { id = @String.Format("{0}", '{{ club.Id}}') }, null)</div>*@
+                @*<a href="'@clubScheduleLink' + '1'">{{club.Name}}</a>*@
+            </div>
+        </div>
+
+    </div>
+</div>

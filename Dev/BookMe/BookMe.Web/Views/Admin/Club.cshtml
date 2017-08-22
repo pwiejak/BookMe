@@ -1,0 +1,14 @@
+﻿@model BookMe.BusinessLogic.Model.Club
+@{
+    ViewBag.Title = "ClubDetails";
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <!-- Sidebar -->
+        @Html.Partial("_SideMenu")
+    </div>
+    <div class="col-md-10">
+        @Html.Partial("_ClubDetails", Model)
+    </div>
+</div>

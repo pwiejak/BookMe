@@ -1,0 +1,26 @@
+﻿<script type='text/javascript'>
+    $(document).ready(function () {       
+        var calendar = $("#fullCalendar");
+        calendar.fullCalendar({
+            defaultView: 'agendaWeek',
+            minTime: "06:00:00",
+            maxTime: "22:00:00",
+            aspectRatio: 1,
+            editable: true,
+            eventLimit: true,
+            lang: 'en',
+            dayClick: function (date, jsEvent, view) {
+                alert('Clicked on: ' + date.format());
+            }
+        });
+    });
+</script>
+
+<div ng-app="BookMeApp" class="row">
+    <div ng-controller="ScheduleController" ng-init="init()">
+        <div class="container">
+            <div id="fullCalendar"></div>
+        </div>
+
+    </div>
+</div>

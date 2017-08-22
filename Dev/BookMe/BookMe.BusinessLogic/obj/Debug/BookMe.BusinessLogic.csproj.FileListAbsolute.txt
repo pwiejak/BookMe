@@ -1,0 +1,11 @@
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\bin\Debug\BookMe.BusinessLogic.dll
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\bin\Debug\BookMe.BusinessLogic.pdb
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\bin\Debug\AutoMapper.dll
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\bin\Debug\BookMe.Database.dll
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\bin\Debug\EntityFramework.dll
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\bin\Debug\BookMe.Database.pdb
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\bin\Debug\AutoMapper.xml
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\bin\Debug\EntityFramework.xml
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\obj\Debug\BookMe.BusinessLogic.csprojResolveAssemblyReference.cache
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\obj\Debug\BookMe.BusinessLogic.dll
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.BusinessLogic\obj\Debug\BookMe.BusinessLogic.pdb

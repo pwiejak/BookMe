@@ -1,0 +1,16 @@
+﻿@using BookMe.Web.Resources
+@model BookMe.Web.ViewModels.Club.ClubsVm
+@{
+    ViewBag.Title = "Clubs";
+}
+
+<div class="row header">
+    <div class="col-md-12 zone">
+        <h3>@Strings.ListOfClubs</h3>
+    </div>
+</div>
+
+<div class="container">
+    @Html.Partial("_Clubs", Model)
+</div>
+

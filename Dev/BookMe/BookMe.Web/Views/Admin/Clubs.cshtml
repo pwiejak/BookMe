@@ -1,0 +1,14 @@
+﻿@using BookMe.Web.Resources
+@{
+    ViewBag.Title = @Strings.ClubsList;
+}
+
+<div class="row">
+    <div class="col-md-2">
+        <!-- Sidebar -->
+        @Html.Partial("_SideMenu")
+    </div>
+    <div class="col-md-10">
+        @Html.Partial("_ClubsList")
+    </div>
+</div>

@@ -1,0 +1,28 @@
+﻿@using BookMe.Web.Resources
+@model BookMe.Web.ViewModels.Club.ClubsVm
+
+@Scripts.Render("~/bundles/angular")
+@Scripts.Render("~/bundles/clubs")
+
+<div ng-app="BookMeApp" 
+     ng-controller="ClubsController" 
+     ng-init="init(@Newtonsoft.Json.JsonConvert.SerializeObject(Model))" class="row">
+    <div >
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>@Strings.Name</th>
+                    <th>@Strings.Email</th>
+                    <th>@Strings.Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="x in clubs">
+                    <td><a href="" ng-click="linkToManageClub(x.Id)">{{x.Name}}</a></td>
+                    <td>{{ x.Email }}</td>
+                    <td>{{ x.Phone }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

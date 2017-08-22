@@ -1,0 +1,12 @@
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\bin\Debug\BookMe.Database.dll.config
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\bin\Debug\BookMe.Database.dll
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\bin\Debug\BookMe.Database.pdb
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\bin\Debug\EntityFramework.dll
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\bin\Debug\EntityFramework.SqlServer.dll
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\bin\Debug\EntityFramework.xml
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\bin\Debug\EntityFramework.SqlServer.xml
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\obj\Debug\BookMe.Database.csprojResolveAssemblyReference.cache
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\obj\Debug\BookMe.Database.Migrations.Initial.resources
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\obj\Debug\BookMe.Database.csproj.GenerateResource.Cache
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\obj\Debug\BookMe.Database.dll
+E:\Workspaces\pwsoftware\BookMe\Dev\BookMe\BookMe.Database\obj\Debug\BookMe.Database.pdb

@@ -1,0 +1,18 @@
+﻿@using BookMe.Web.Resources
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="row sidebar">
+    <ul class="sidebar-nav">
+        <li class="sidebar-item sidebar-header">
+            Menu
+        </li>
+        <li class="sidebar-item">
+            @Html.ActionLink(@Strings.ClubsList, "Clubs", "Admin")
+        </li>
+        <li class="sidebar-item">
+            @Html.ActionLink(@Strings.AddClub, "AddClub", "Admin")
+        </li>
+    </ul>
+</div>
